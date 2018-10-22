@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
+<!-- is thei-->-->
 	<title>Top 10 Books</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
@@ -9,42 +10,257 @@
 	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
 	<script src="js/changepages.js"></script>
 </head> 
-<body> 
+<body>
 
-<div data-role="page" id="main">
+	<div data-role="page" id="main">
 
-	<div data-role="header">
-		<h1>Top 10 Books</h1>
+		<div data-role="header">
+			<h1>Top 10 Books</h1>
+		</div>
+		<div data-role="content">
+			<ul data-role="listview" data-inset="true">
+				<li><a href="#book1">Alice's Adventures In Wonderland</a></li>
+				<li><a href="#book2">The Outsiders</a></li>
+				<li><a href="#book3">Of Mice And Men</a></li>
+				<li><a href="#book4">To Kill A Mockingbird</a></li>
+				<li><a href="#book5">The Catcher In The Rye</a></li>
+				<li><a href="#book6">Fahrenheit 451</a></li>
+				<li><a href="#book7">Slaughterhouse-Five</a></li>
+				<li><a href="#book8">Flowers for Algernon</a></li>
+				<li><a href="#book9">Beowulf</a></li>
+				<li><a href="#book10">The Call Of The Wild</a></li>
+			</ul>
+		</div>
+
 	</div>
 
-	<div data-role="content">	
-		<ul data-role="listview" data-inset="true">
-			<li><a href="#book1">Alice's Adventures In Wonderland</a></li>
-			<li><a href="#book2">The Outsiders</a></li>
-			<li><a href="pages/ofmice.html">Of Mice And Men</a></li>
-			<li><a href="pages/mockingbird.html">To Kill A Mockingbird</a></li>
-			<li><a href="pages/catcherintherye.html">The Catcher In The Rye</a></li>
-			<li><a href="pages/f451.html">Fahrenheit 451</a></li>
-			<li><a href="pages/sfive.html">Slaughterhouse-Five</a></li>
-			<li><a href="pages/flowersforalgernon.html">Flowers for Algernon</a></li>
-			<li><a href="pages/beowulf.html">Beowulf</a></li>
-			<li><a href="pages/callofthewild.html">The Call Of The Wild</a></li>
-		</ul>		
+
+
+
+
+	<div data-role="page" id='book1'>
+		<div data-role="header">Alice's Adventures in Wonderland</div>
+		<div data-role="main" class="ui-content">
+			<div class='cell1'>
+				<img src="https://i.harperapps.com/covers/9780688110871/y648.jpg" alt="Alice">
+				<br>
+				<a href="https://i.harperapps.com/covers/9780688110871/y648.jpg">Source</a>
+			</div>
+			<div class='cell2'>
+				<p>Alice's Adventures In Wonderland<br>Lewis Carroll</p>
+				<p>Alice's curiosity leads her down a rabbit hole and into a place unlike any place she has known.  "Everyone is mad here"</p>
+			</div>
+			<div class='cell3'>
+				<ul>
+					<li><a href="https://www.gutenberg.org/files/11/11-h/11-h.htm">Read the book for free (Gutenberg Project)</a></li>
+					<li><a href="https://www.biography.com/people/lewis-carroll-9239598">About the author</a></li>
+				</ul>
+			</div>
+		</div>
 	</div>
 
-</div>
-
-<div data-role="page" id="book1">
-
-	<div data-role="header">
-		<h1>Alice's Adventures In Wonderland</h1>
+	<div data-role="page" id='book2'>
+		<div data-role="header">The Outsiders</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://images.gr-assets.com/books/1442129426l/231804.jpg" alt="Outsiders">
+					<br>
+					<a href="https://images.gr-assets.com/books/1442129426l/231804.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>The Outsiders<br>S.E. Hinton</p>
+					<p>The Greasers and Socs do not get along.  This sets the stage for many life-long lessons to be learned and friendships to be strengthened for Ponyboy and Johnny.</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.goodreads.com/book/show/231804.The_Outsiders">About the book</a></li>
+						<li><a href="https://www.famousauthors.org/s-e-hinton">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div data-role="content" id="book1content">
-		
+	<div data-role="page" id='book3'>
+		<div data-role="header">Of Mice and Men</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://images.gr-assets.com/books/1511302904l/890.jpg" alt="Of Mice And Men">
+					<br>
+					<a href="https://images.gr-assets.com/books/1511302904l/890.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>Of Mice And Men<br>John Steinbeck</p>
+					<p>Two drifters strive to find their dreams in a tough world.  Lennie, the more confused of the two, struggles through obstacles on the way to their dream, and a tough decision presents itself.</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.goodreads.com/book/show/890.Of_Mice_and_Men">About the book</a></li>
+						<li><a href="https://www.nobelprize.org/prizes/literature/1962/steinbeck/biographical/">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
 
-</div>
+	<div data-role="page" id='book4'>
+		<div data-role="header">To Kill a Mockingbird</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://www.arts.gov/sites/default/files/styles/large-620/public/To%20Kill%20a%20Mockingbird.jpg?itok=cOWSglr1" alt="To Kill A Mockingbird">
+					<br>
+					<a href="https://www.arts.gov/sites/default/files/styles/large-620/public/To%20Kill%20a%20Mockingbird.jpg?itok=cOWSglr1">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>To Kill A Mockingbird<br>Harper Lee</p>
+					<p>A timeless lesson to combat bigotry, To Kill A Mockingbird follows the trial of a supposed rapist whose fate may be in someone else's hands.</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.arts.gov/national-initiatives/nea-big-read/to-kill-a-mockingbird">About the book</a></li>
+						<li><a href="https://www.harpercollins.com/author/cr-103537/harper-lee/">About the author</a></li>
+					</ul>
+				</div>
+			</div></div>
+	</div>
 
+	<div data-role="page" id='book5'>
+		<div data-role="header">Catcher in the Rye</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://cdn.britannica.com/s:700x450/94/181394-004-C6D6E60B.jpg" alt="Catcher In The Eye">
+					<br>
+					<a href="https://cdn.britannica.com/s:700x450/94/181394-004-C6D6E60B.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>The Catcher In The Rye<br>J.D. Salinger</p>
+					<p>Holden is caught between the likes of innocense held with childhood, and becoming an adult and facing the realities that come with it.</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.britannica.com/topic/The-Catcher-in-the-Rye">About the book</a></li>
+						<li><a href="https://www.biography.com/people/jd-salinger-9470070">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id='book6'>
+		<div data-role="header">Fahrenheit 451</div>
+		<div data-role="main" class="ui-content">
+	<div class='row'>
+		<div class='cell1'>
+			<img src="https://images.ctfassets.net/7h71s48744nc/3lVggyWcvmEOMyuQAAcoSa/0b6c27980d7aa8e18c0983adfc4e0487/fahrenheit-451-cover.jpg" alt="Fahrenheit 451">
+			<br>
+			<a href="https://images.ctfassets.net/7h71s48744nc/3lVggyWcvmEOMyuQAAcoSa/0b6c27980d7aa8e18c0983adfc4e0487/fahrenheit-451-cover.jpg">Source</a>
+		</div>
+		<div class='cell2'>
+			<p>Fahrenheit 451<br>Ray Bradbury</p><p>Montag, a fireman, starts fires instead of putting them out.  But will he learn anything valuable?</p></td>
+		</div>
+		<div class='cell3'>
+			<ul>
+				<li><a href="https://www.pluggedin.com/book-reviews/fahrenheit-451/">About the book</a></li>
+				<li><a href="https://www.goodreads.com/author/show/1630.Ray_Bradbury">About the author</a></li>
+			</ul>
+		</div>
+	</div></div></div>
+
+
+	<div data-role="page" id='book7'>
+		<div data-role="header">Slaughterhouse-Five</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://images.gr-assets.com/books/1440319389l/4981.jpg" alt="Slaughterhouse-Five">
+					<br>
+					<a href="https://images.gr-assets.com/books/1440319389l/4981.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>Slaughterhouse-Five<br>Kurt Vonnegut</p>
+					<p>Billy Pilgrim's 'pilgrimmage through time' prompts us to search for meaning in this anti-war novel.</p>
+				</div>
+				<div class='cell3'>
+					<li><a href="https://www.goodreads.com/book/show/4981.Slaughterhouse_Five">About the book</a></li>
+					<li><a href="https://www.vonnegutlibrary.org/kurt-biography/">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div></div>
+
+
+	<div data-role="page" id='book8'>
+		<div data-role="header">Flowers for Algernon</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="https://images.gr-assets.com/books/1510416245l/36576608.jpg" alt="Flowers for Algernon">
+					<br>
+					<a href="https://images.gr-assets.com/books/1510416245l/36576608.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>Flowers for Algernon<br>Daniel Keyes</p>
+					<p>A scientific breakthrough increases the intelligence of Charlie, a mentally handicapt man, until it surpasses all of those around him, mirroring the same pattern as Algernon the lab mouse.  Will Agernon's fate be that of Charlie's as well?</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.goodreads.com/book/show/36576608-flowers-for-algernon">About the book</a></li>
+						<li><a href="http://www.danielkeyesauthor.com/dksbio.html">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div data-role="page" id='book9'>
+		<div data-role="header">Beowulf</div>
+		<div data-role="main" class="ui-content">
+			<div class='row'>
+				<div class='cell1'>
+					<img src="http://bookcoverarchive.com/wp-content/uploads/amazon/beowulf.jpg" alt="Beowulf">
+					<br>
+					<a href="http://bookcoverarchive.com/wp-content/uploads/amazon/beowulf.jpg">Source</a>
+				</div>
+				<div class='cell2'>
+					<p>Beowulf<br>Seamus Heaney</p>
+					<p>An epic story following a young Geatish warrior in his grand venture to protect the town.</p>
+				</div>
+				<div class='cell3'>
+					<ul>
+						<li><a href="https://www.sparknotes.com/lit/beowulf/summary/">About the book</a></li>
+						<li><a href="https://www.poetryfoundation.org/poets/seamus-heaney">About the author</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id='book10'>
+		<div data-role="header">Call of the Wild</div>
+		<div data-role="main" class="ui-content">
+		<div class='row'>
+			<div class='cell1'>
+				<img src="https://images.gr-assets.com/books/1452291694l/1852.jpg" alt="Call Of The Wild">
+				<br>
+				<a href="https://images.gr-assets.com/books/1452291694l/1852.jpg">Source</a>
+			</div>
+			<div class='cell2'>
+				<p>The Call Of The Wild<br>Jack London</p>
+				<p>Through the eyes of a dog, follow its grand adventure through the Alaskan Klondike and witness the deeper meanings of common ideas presented through its experiences.</p>
+			</div>
+			<div class='cell3'>
+				<ul>
+					<li><a href="https://www.goodreads.com/book/show/1852.The_Call_of_the_Wild">About the book</a></li>
+					<li><a href="https://www.biography.com/people/jack-london-9385499">About the author</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		</div></div>
 </body>
 </html>
